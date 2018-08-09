@@ -13,12 +13,15 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
     this.titulo = 1;
-    this.titulo2 = "Bienvenidos a";
+    this.titulo2 = "Servicios ya!";
   }
 
   aumentar  ()  : void 
   {
     this.titulo++;
   }
+
+
+
 
 }
