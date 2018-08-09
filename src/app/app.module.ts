@@ -35,7 +35,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactPage,
     HomePage,
     TabsPage,
-    MarioPage
+    MarioPage,
+    ContadorComponent
   ],
   providers: [
     StatusBar,
