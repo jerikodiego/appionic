@@ -8,10 +8,12 @@ import { NavController } from 'ionic-angular';
 export class HomePage {
 
   titulo :number;
+  titulo2 :string
 
   constructor(public navCtrl: NavController) {
 
     this.titulo = 1;
+    this.titulo2 = "Bienvenidos a";
   }
 
   aumentar  ()  : void 

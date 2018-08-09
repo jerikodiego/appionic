@@ -1,24 +1,43 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>{{titulo}}</ion-title>
+    <ion-title>{{titulo2}}</ion-title>
   </ion-navbar>
 </ion-header>
 
+
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
+  <h2>Instrucciones</h2>
   <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
+    A continuación blablablabla
   </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
-  <button ion-button (click)="aumentar()">Pulsame</button>
-  <contador text="a"></contador>
-  <contador text="b"></contador>
-  <contador text="c"></contador>
-  <contador text="d"></contador>
-  <contador text="i"></contador>
-  <contador text="fdgfdg"></contador>
+  
+  <ion-item>
+      <ion-thumbnail item-start>
+        <img src="img/thumbnail-totoro.jpg">
+      </ion-thumbnail>
+      <h2>Servicio de mecánica</h2>
+      <p>En tu ciudad • 28</p>
+      <button ion-button clear item-end>Ver</button>
+    </ion-item>
+    <ion-item>
+        <ion-thumbnail item-start>
+          <img src="img/thumbnail-totoro.png">
+        </ion-thumbnail>
+        <h2>Servicios de Peluqueria</h2>
+        <p>En tu ciudad • 11</p>
+        <button ion-button clear item-end>Ver</button>
+      </ion-item>
+      
+      
+    <br>
+    <br>
+    <br>
+
+<!--
+     <button ion-button (click)="aumentar()">Pulsame</button>
+     <contador text="a"></contador>
+-->
+  
+
 </ion-content>
+
